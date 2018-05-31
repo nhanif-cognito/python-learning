@@ -1,0 +1,6 @@
+#flow charts evaluation usingbool etc.
+
+name = 'alice'
+if name == 'alice':
+	print('hi alice')
+print('Done')
