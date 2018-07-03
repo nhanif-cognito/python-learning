@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+"""
+code to convert F to C using formula f=(c-32)/1.8
+"""
+F = int(input("please enter temperature in fahrenheit =    "))
+print (F)
+data = {}
+
+c = (F - 32)/(1.8)
+print("is equals to %s:" %c)
