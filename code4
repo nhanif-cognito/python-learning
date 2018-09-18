@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+
+n = int(input("Please enter number of students=   "))
+data = {}
+subjects = {"Eng", "bio", "phy", "chem"}
+print(subjects)
+for i in range(0, n):
+    name = input("Please enter your name %d:" % (i + 1))
+    marks = []
+    for x in subjects:
+        marks.append(int(input("please enter your marks %s: " % x)))
+
+data[name] = marks
+for x, y in data.items():
+    total = sum(y)
+    print(total)
+    if total < 120:
+        print("failed")
+    else:
+        print("passed")

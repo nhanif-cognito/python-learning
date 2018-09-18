@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# programe to display users given name , age and job titleself.
+
+data = {}
+name = input("enter your full name: ")
+#print(name)
+age=int(input("enter your age: "))
+#print(age)
+department = input("enter your department")
+#print(department)
+for i in range(name , department):
+      id = input("enter your employee id %d: " % (i+1))
+      pw = []
+      

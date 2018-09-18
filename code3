@@ -1,0 +1,17 @@
+# code 3 to evaluate if else statements
+
+name = input()
+print('my name is' + name)
+age = input()
+print('age is ' + age)
+
+# if name == 'alice'
+#print('hi alice')
+# elif:
+#     print('incorrect name')
+
+if age > 25:
+print('stop telling incorrect age')
+
+elif age;
+print('that is correct')
