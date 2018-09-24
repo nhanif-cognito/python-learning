@@ -1,4 +1,4 @@
-# this program says hello world
+# this program will print out hello world
 print ('hello world')
 print('what is your name')
 full name= input()
