@@ -1,6 +1,0 @@
-# this program will print out hello world
-print ('hello world')
-print('what is your name')
-full name= input()
-print ('it is good to meet you' + full name)
-
