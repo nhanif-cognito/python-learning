@@ -1,0 +1,11 @@
+'''
+BMI code using a function
+
+'''
+def BMI(name, height, weight):
+    BMI = (height / weight ** 2)
+
+if (BMI < 25):
+    print(BMI("hina", 3, 23) , "healthy")
+else:
+    print("unhealthy")
