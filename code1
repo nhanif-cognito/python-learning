@@ -1,0 +1,12 @@
+'''
+code to calculate BMI
+'''
+name = "naveed"
+height  = 6
+weight = 78
+BMI = (weight /height ** 2)
+
+if (BMI < 25):
+    print("%s is healthy" % (name))
+else:
+    print("%s is overweight" % (name))
