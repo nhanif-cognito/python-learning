@@ -7,4 +7,3 @@ def download(url):
     if req.status_dode == 404:
         print('no such file found %s' % url)
         return
-        
