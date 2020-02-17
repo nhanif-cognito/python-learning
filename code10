@@ -3,3 +3,7 @@
 '''
 sample python code to reverse a string of characters
 '''
+
+def reverse():
+string = "I love programming"
+return(string)
